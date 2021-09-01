@@ -25,3 +25,22 @@ function doBlue() {
     ctxt.fillStyle = "blue";
     ctxt.fillRect(90,100,20,10);
 }
+
+//make black button changes color of canvas to black
+
+function doBlack() {
+    var black = document.getElementById("c1");
+        black.style.backgroundColor = "black";
+}
+
+function changeColor1() {
+    var gray = document.getElementById("c2");
+        gray.style.backgroundColor = "gray";
+}
+
+function addShape() {
+    var square = document.getElementById("c2")
+        var cxt = square.getContext("2d");
+        cxt.fillStyle = "black";
+        cxt.fillRect(95,95, 45,45);
+}
